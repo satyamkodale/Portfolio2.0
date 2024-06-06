@@ -7,9 +7,10 @@ const subheadingsData = {
           <p>
             As a dedicated Fullstack Developer, I excel in crafting secure
             RESTful APIs and dynamic React frontends. My robust skill set in
-            Java, Springboot, and Microservices drives seamless project
-            execution. I thrive on solving complex development challenges.
-            Continuous learning fuels my journey toward software excellence.
+            Java, React.js, Springboot, and Microservices drives seamless
+            project execution. I thrive on solving complex development
+            challenges. Continuous learning fuels my journey toward software
+            excellence.
           </p>
         </>
       ),
