@@ -80,7 +80,6 @@ export default function Hero() {
 
   const titles = [
     "Full Stack Developer",
-    "Programmer",
     "Backend Enthusiastic",
     "Problem Solver",
   ];
