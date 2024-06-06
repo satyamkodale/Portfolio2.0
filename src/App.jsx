@@ -10,10 +10,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav/Nav.jsx";
-import About from "./components/About/About.jsx";
-import Skills1 from "./components/Skill/Skills1.jsx";
-// import Project2 from "./components/Project/Project2.jsx";
-import Contact2 from "./components/Contact2/Contact2.jsx";
+
 import "./App.css";
 // ------------------------------------------------------
 import Skills from "./components/Skills/Skills.jsx";
@@ -27,12 +24,11 @@ const App = () => {
       <Nav />
 
       <Routes>
-        {/* <Route path="/" element={<About />} /> */}
         <Route path="/" element={<Hero />} />
-        {/* <Route path="/skills" element={<Skills1 />} /> */}
+
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Project />} />
-        {/* <Route path="/contact" element={<Contact2 />} /> */}
+
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

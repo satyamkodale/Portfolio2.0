@@ -43,7 +43,7 @@ const subheadingsData = {
   ],
   3: [
     {
-      title: "2022 Java Developer Intern",
+      title: "2022 Java Developer Intern | Oasis Infobyte",
       content: (
         <>
           <p>
@@ -55,7 +55,7 @@ const subheadingsData = {
       ),
     },
     {
-      title: "2023 Fullstack developer Intern",
+      title: "2023 Fullstack developer Intern | Devtown",
       content: (
         <>
           <p>
@@ -68,7 +68,7 @@ const subheadingsData = {
       ),
     },
     {
-      title: "2021 Frontend Developer Intern",
+      title: "2021 Frontend Developer Intern | Sumago Infotech ",
       content: (
         <>
           <p>
