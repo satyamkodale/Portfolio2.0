@@ -44,7 +44,7 @@ const subheadingsData = {
   ],
   3: [
     {
-      title: "2022 Java Developer Intern | Oasis Infobyte",
+      title: "2023 Java Developer Intern | Oasis Infobyte",
       content: (
         <>
           <p>
