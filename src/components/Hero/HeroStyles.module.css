@@ -5,7 +5,7 @@
   justify-content: center;
   gap: 15px;
   text-align: center;
-  
+  margin-top: 60px;
   height: 30dvh;
   min-height: 170px;
   /* border: 2px solid red; */
@@ -13,7 +13,7 @@
     max-width: 150px;
   }
 
-  margin-top: 60px;
+  
 
 
 span {
@@ -64,7 +64,7 @@ button {
   border-radius: 20px;
   width: 110px;
   height: 30px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
@@ -72,7 +72,7 @@ button {
 
 .h1hero
 {
-font-size:20px;
+font-size:1.25rem;
 }
 .h2hero
 {
@@ -98,6 +98,9 @@ a
 }
 .colorModeContainer {
   position: relative;
+  width: 42%;
+  height: 10.5rem;
+  
 }
 
 .colorMode {
@@ -159,16 +162,22 @@ a
      justify-content: center;
      align-items:center  ;
     .heroImg {
-      max-width: 200px;
-      width: 200px;
+      max-width: 13.56rem;
+            width: 100%;
     }
     .h1hero {
-      font-size: 30px;
+      font-size: 1.875rem;
      }
   }
+  .colorModeContainer {
+   
+    height: 13.5rem;
+    
+  }
+
   
 .info {
-  width: 21%;
+  width: 27%;
 }
 }
 
@@ -184,13 +193,57 @@ a
     }
   }
   .h1hero{
-    font-size: 45px;
+    font-size: 2.8125rem;
    }
    .h2hero
    {
-  font-size:20px
+  font-size:1.25rem;
 
 }
 
 } 
 
+
+
+
+/* @media (width >= 800px) {
+  ._info_1ox3x_233 {
+      width: 27%;
+  }
+} */
+/* 
+._colorModeContainer_1ox3x_197 {
+  position: relative;
+  width: 37%;
+  height: 11rem;
+} */
+/* ._colorModeContainer_13c8m_197 {
+    position : relative;
+    width: 39%;
+    height: 10.5rem;
+
+        position: relative;
+    width: 37%;
+    height: 13.5rem;
+} */
+/* @media (width >= 800px) {
+  ._container1_1ox3x_1 {
+      ._heroImg_1ox3x_23 {
+          max-width:185px;
+          11.56rem;
+          width: 100%;
+          height: auto;
+      }
+  }
+} */
+/* 
+@media (width >= 800px) {
+  ._container1_13c8m_1 {
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      margin-top: 80px;
+      min-height: 220px;
+      justify-content: center;
+      align-items: center;
+  }
+} */

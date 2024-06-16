@@ -12,10 +12,10 @@ const AboutSubheading = ({ title, content, active, onClick, menuItem }) => {
       })}
       onClick={onClick}
     >
-      <h3>{title}</h3>
+      <h3 className={styles.pContainerh3}>{title}</h3>
       <div className={styles.pContainer}>
         {/* Use a <div> instead of a <p> here */}
-        <div>{content}</div>
+        <div className={styles.pContainerdiv}>{content}</div>
       </div>
     </div>
   );

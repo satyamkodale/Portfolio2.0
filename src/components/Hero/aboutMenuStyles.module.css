@@ -35,12 +35,12 @@
 
 
 .title {
-  font-size:  12px;
+  font-size:  0.75rem;
   padding-right: 2.5rem;
 }
 
 .item.active .title {
-  font-size:15px;
+  font-size:0.9375rem;
 }
 
 .item.active {
@@ -81,7 +81,16 @@
 .activeSubheading {
   cursor: default;
 }
+.pContainerh3
+{
+  font-size: 0.6875rem;
+}
 
+.pContainerdiv>p
+{
+  font-size: 0.6875rem;
+  font-weight: 300;
+}
 
 
 
@@ -136,25 +145,39 @@
     
   }
   .item {
-    height: 40px;
+    height: 2.5rem;
     
   }
   .item.active .title {
-    font-size:19px;
+    font-size:1.1875rem;
   }
   .subContainer
   {
     /* border: 2px solid rgb(237, 116, 56); */
 
   }
+  .pContainerh3 {
+    font-size: -0.9375rem;
+  }
+  .pContainerdiv>p
+{
+  font-size:12px;
+  font-weight: 300;
+  /* background-color: rgb(255, 47, 0); */
+}
 } 
 
-@media (min-width:1100) {
+@media (min-width:1100px) {
 
 .outer1
   {
  
-    margin-top: 120px;
+    margin-top: 1.6875rem;
+  }
+  .pContainerdiv>p
+  {
+    
+    background-color: rgb(255, 255, 0);
   }
 
 }

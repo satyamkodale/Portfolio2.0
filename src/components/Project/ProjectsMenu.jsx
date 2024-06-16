@@ -18,7 +18,9 @@ const ProjectsMenu = () => {
         {/* Use module CSS class */}
         <h3>{project.title}</h3>
         <img src={project.image} alt={project.title} />
-        <div>{project.description}</div>
+        <div className={styles.projectSubContainerDiv}>
+          {project.description}
+        </div>
         <div className={styles.linkContainer}>
           {" "}
           {/* Use module CSS class */}
