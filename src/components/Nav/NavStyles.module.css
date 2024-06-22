@@ -5,7 +5,7 @@
   align-items: center;
   top: 5px;
   gap: 30px;
-  left: 37%;
+  left: 20%;
   /* border: 2px solid red; */
  
 }
@@ -46,10 +46,17 @@ a {
   cursor: default;
 }
 
+.lightBackground {
+  background-color: white;
+}
 
+.darkBackground {
+  background-color: #222;
+}
 
 .navLink {
   opacity: 0.5;
+  /* background-color: white; */
 }
 
 .navLink:hover {
@@ -69,7 +76,7 @@ a {
     align-items: center;
     top: 10px;
     gap: 66px;
-    left: 35%;
+    left: 28%;
 
     /* border: 2px solid red; */
     /* width: 80%; */
@@ -92,7 +99,7 @@ a {
 }
 
 .pageTitle {
-  font-size: 15px;
+  font-size: 0.9375rem;
   /* color: white; */
   cursor: default;
   
@@ -117,7 +124,7 @@ a {
     align-items: center;
     top: 10px;
     gap: 66px;
-    left: 40%;    
+    left: 33%;    
   }
 
   

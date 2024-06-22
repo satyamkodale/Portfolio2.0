@@ -100,7 +100,7 @@ export default function Hero() {
   }, [titleIndex]);
 
   return (
-    <section id="hero" className={styles.outer}>
+    <section id="about" className={styles.outer}>
       <div className={styles.container1}>
         <div className={styles.colorModeContainer}>
           <img

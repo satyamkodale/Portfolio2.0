@@ -54,31 +54,36 @@ const ProjectsMenu = () => {
   ];
 
   return (
-    <div className={styles.projectMenu}>
-      {" "}
-      {/* Use module CSS class */}
-      <div className={styles.projectItemsContainer}>
+    <>
+      <h1 id="projects" className={styles.h1heading}>
+        Project
+      </h1>
+      <div className={styles.projectMenu}>
         {" "}
         {/* Use module CSS class */}
-        {projectItems.map((item, index) => (
-          <div
-            key={index}
-            className={classNames(styles.projectItem, {
-              // Use module CSS class and classNames
-              [styles.activeProject]: activeProject === index + 1,
-            })}
-            onClick={() => handleProjectClick(index + 1)}
-          >
-            <h2 className="title">{item}</h2>
-          </div>
-        ))}
+        <div className={styles.projectItemsContainer}>
+          {" "}
+          {/* Use module CSS class */}
+          {projectItems.map((item, index) => (
+            <div
+              key={index}
+              className={classNames(styles.projectItem, {
+                // Use module CSS class and classNames
+                [styles.activeProject]: activeProject === index + 1,
+              })}
+              onClick={() => handleProjectClick(index + 1)}
+            >
+              <h2 className="title">{item}</h2>
+            </div>
+          ))}
+        </div>
+        <div className={styles.projectSubContainer}>
+          {" "}
+          {/* Use module CSS class */}
+          {renderContent([projects[activeProject]])}
+        </div>
       </div>
-      <div className={styles.projectSubContainer}>
-        {" "}
-        {/* Use module CSS class */}
-        {renderContent([projects[activeProject]])}
-      </div>
-    </div>
+    </>
   );
 };
 

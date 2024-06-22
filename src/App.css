@@ -29,15 +29,16 @@ body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 60px;
+  margin: 0 auto 3.75rem;
 }
+
 
 
 #root {
 
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 3.9rem;
 }
 
 
@@ -50,6 +51,10 @@ p {
   padding: 0;
 }
 
+html
+{
+  font-size: 16px;
+}
 
 h2,
 h3,
@@ -64,11 +69,11 @@ h2 {
 
 h2,
 h3 {
-  font-size: 15px;
+  font-size: 1rem;
 }
 h1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 a
@@ -77,11 +82,11 @@ a
 }
 
 p {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 300;
 }
 .sectionTitle {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .hover {
@@ -89,33 +94,33 @@ p {
 }
 @media (width >= 800px) {
   #root {
-    gap: 100px;
+    gap: 5rem;
   }
   h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   h2,
   h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 
   .sectionTitle {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
 
   @media (width >= 1400px) {
     #root {
-      gap: 200px;
+      gap: 12.5rem;
     }
     h1 {
-      font-size: 48px;
+      font-size: 3rem;
     }
 
     .sectionTitle {
-      margin-bottom: 75px;
+      margin-bottom: 4.6875rem;
     }
   }
 }

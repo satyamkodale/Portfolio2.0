@@ -5,7 +5,7 @@
   justify-content: center;
   gap: 15px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 86px;
   height: 30dvh;
   min-height: 170px;
   /* border: 2px solid red; */
@@ -13,7 +13,7 @@
     max-width: 150px;
   }
 
-  
+ 
 
 
 span {
@@ -79,6 +79,7 @@ font-size:1.25rem;
   
     text-align: center; /* Ensure text is left-aligned */
     margin: 0 auto; /* Center the container horizontally */
+            /* font-size: 2rem; */
   
 }
 
@@ -166,12 +167,12 @@ a
             width: 100%;
     }
     .h1hero {
-      font-size: 1.875rem;
+      font-size:  2.5rem;
      }
   }
   .colorModeContainer {
    
-    height: 13.5rem;
+    height: 15.5rem;
     
   }
 
@@ -188,8 +189,8 @@ a
     justify-content: center;
     align-items:center  ;
     .heroImg {
-      max-width: 250px;
-      width: 250px;
+      max-width: 270px;
+      width: 300px;
     }
   }
   .h1hero{
