@@ -46,18 +46,21 @@ const ProjectsMenu = () => {
   };
 
   const projectItems = [
-    "PROJECT ONE",
-    "PROJECT TWO",
-    "PROJECT THREE",
-    "PROJECT FOUR",
-    "PROJECT FIVE",
+    "ElectroEase",
+    "QuizQuest",
+    "TrendWave",
+    "BLOG APPLICATION",
+    "PHOTOSTUDIO NEAR ME",
   ];
+
+  const color = theme === "light" ? "white" : "black";
 
   return (
     <>
-      <h1 id="projects" className={styles.h1heading}>
-        Project
-      </h1>
+      <h1
+        id="projects"
+        style={{ backgroundColor: color, padding: "30px" }}
+      ></h1>
       <div className={styles.projectMenu}>
         {" "}
         {/* Use module CSS class */}

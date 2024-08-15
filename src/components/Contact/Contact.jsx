@@ -1,13 +1,18 @@
 import styles from "./ContactStyles.module.css";
-
+import { useTheme } from "../../common/ThemeContext";
 function Contact() {
+  const { theme, toggleTheme } = useTheme();
+  const color = theme === "light" ? "white" : "black";
   return (
     <>
       <section id="contact" className={styles.container}>
-        {/* <h1 className="sectionTitle">Contact</h1> */}
+        <h1
+          id="contact"
+          style={{ backgroundColor: color, padding: "30px" }}
+        ></h1>
 
         <form action="">
-          <h1 id="contact">Contact</h1>
+          <h1 id="contact"></h1>
           <div className="formGroup">
             <label htmlFor="name" hidden>
               Name

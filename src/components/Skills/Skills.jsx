@@ -8,11 +8,14 @@ function Skills() {
   const { theme } = useTheme();
   const checkMarkIcon =
     theme === "light" ? checkMarkIconLight : checkMarkIconDark;
-
+  const color = theme === "light" ? "white" : "black";
   return (
     <>
       <section className={styles.container}>
-        <h1 id="skills">Skills</h1>
+        <h1
+          id="skills"
+          style={{ backgroundColor: color, padding: "30px" }}
+        ></h1>
         {/* <h1 className="sectionTitle">Skills</h1> */}
         <div className={styles.skillList}>
           <SkillList src={checkMarkIcon} skill="Java " />
@@ -29,11 +32,13 @@ function Skills() {
           <SkillList src={checkMarkIcon} skill="Redux" />
           <SkillList src={checkMarkIcon} skill="Bootstrap" />
           <SkillList src={checkMarkIcon} skill="Microservices" />
+          <SkillList src={checkMarkIcon} skill="Docker" />
           <SkillList src={checkMarkIcon} skill="Hibernate" />
         </div>
         <hr />
         <div className={styles.skillList}>
-          <SkillList src={checkMarkIcon} skill="Git & GitHub" />
+          <SkillList src={checkMarkIcon} skill="Git & GitHub " />
+          <SkillList src={checkMarkIcon} skill="Gitlab " />
           <SkillList src={checkMarkIcon} skill="Postman" />
           <SkillList src={checkMarkIcon} skill="VS Code" />
           <SkillList src={checkMarkIcon} skill="STS" />

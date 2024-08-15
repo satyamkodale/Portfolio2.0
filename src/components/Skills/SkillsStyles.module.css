@@ -4,7 +4,7 @@
   text-align: center;
  margin-top: 150px;
  flex-wrap: wrap;
- gap: 27px;
+ gap: 18px;
 
   span {
     display: flex;
@@ -35,10 +35,11 @@ hr {
 }
 
 
+
 @media (width >= 800px) {
   .container
   {
-    margin-top:200px;
+    margin-top:273px;
   }
   .skillList {
     max-width: fit-content;
