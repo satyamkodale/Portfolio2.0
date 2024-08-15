@@ -8,7 +8,7 @@ function Skills() {
   const { theme } = useTheme();
   const checkMarkIcon =
     theme === "light" ? checkMarkIconLight : checkMarkIconDark;
-  const color = theme === "light" ? "white" : "black";
+  const color = theme === "light" ? "#fff" : "#222";
   return (
     <>
       <section className={styles.container}>

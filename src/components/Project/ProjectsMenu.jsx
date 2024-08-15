@@ -53,7 +53,7 @@ const ProjectsMenu = () => {
     "PHOTOSTUDIO NEAR ME",
   ];
 
-  const color = theme === "light" ? "white" : "black";
+  const color = theme === "light" ? "#fff" : "#222";
 
   return (
     <>

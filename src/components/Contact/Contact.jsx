@@ -2,7 +2,7 @@ import styles from "./ContactStyles.module.css";
 import { useTheme } from "../../common/ThemeContext";
 function Contact() {
   const { theme, toggleTheme } = useTheme();
-  const color = theme === "light" ? "white" : "black";
+  const color = theme === "light" ? "#fff" : "#222";
   return (
     <>
       <section id="contact" className={styles.container}>
